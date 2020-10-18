@@ -1,7 +1,7 @@
 import React from 'react';
+import { FiArrowRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
-import { FiArrowRight } from 'react-icons/fi';
 
 import '../styles/pages/landing.css';
 
@@ -16,6 +16,7 @@ function Landing() {
           <h1>Leve felicidade para o mundo</h1>
           <p>Visite orfanatos e mude o dia de muitas crianças.</p>
         </main>
+        
         <div className="location">
           <strong>Rio de Janeiro</strong>
           <span>Rio de Janeiro</span>
